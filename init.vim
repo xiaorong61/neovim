@@ -4,12 +4,8 @@ Plug 'bkad/CamelCaseMotion'
 Plug 'inkarkat/vim-ReplaceWithRegister'
 Plug 'tpope/vim-surround'
 Plug 'michaeljsmith/vim-indent-object'
+Plug 'tpope/vim-commentary'
 call plug#end()
-
-xmap gc  <Plug>VSCodeCommentary
-nmap gc  <Plug>VSCodeCommentary
-omap gc  <Plug>VSCodeCommentary
-nmap gcc <Plug>VSCodeCommentaryLine
 
 set clipboard=unnamed
 set ignorecase
