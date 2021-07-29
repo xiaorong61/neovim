@@ -4,8 +4,6 @@ Plug 'bkad/CamelCaseMotion'
 Plug 'inkarkat/vim-ReplaceWithRegister'
 Plug 'tpope/vim-surround'
 Plug 'michaeljsmith/vim-indent-object'
-Plug 'kana/vim-textobj-user'
-Plug 'kana/vim-textobj-entire'
 call plug#end()
 
 xmap gc  <Plug>VSCodeCommentary
