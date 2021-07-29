@@ -21,5 +21,5 @@ if !exists('##TextYankPost')
   map y <Plug>(highlightedyank)
 endif
 
-let g:highlightedyank_highlight_duration = 1000
+let g:highlightedyank_highlight_duration = 200
 let mapleader = "\<space>"
