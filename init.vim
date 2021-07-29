@@ -4,6 +4,9 @@ Plug 'bkad/CamelCaseMotion'
 Plug 'inkarkat/vim-ReplaceWithRegister'
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-surround'
+Plug 'michaeljsmith/vim-indent-object'
+Plug 'kana/vim-textobj-user'
+Plug 'kana/vim-textobj-entire'
 call plug#end()
 
 xmap gc  <Plug>VSCodeCommentary
@@ -16,4 +19,3 @@ set clipboard=unnamed
 if !exists('##TextYankPost')
   map y <Plug>(highlightedyank)
 endif
-let g:highlightedyank_highlight_duration = 200
