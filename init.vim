@@ -2,7 +2,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'thinca/vim-visualstar'
 Plug 'bkad/CamelCaseMotion'
 Plug 'inkarkat/vim-ReplaceWithRegister'
-Plug 'vim-airline/vim-airline'
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-surround'
 xmap gc  <Plug>VSCodeCommentary
