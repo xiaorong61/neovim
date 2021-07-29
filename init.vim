@@ -16,6 +16,8 @@ nmap gcc <Plug>VSCodeCommentaryLine
 nmap <C-n> :nohlsearch<CR>
 
 set clipboard=unnamed
+set ignorecase
+set smartcase
 
 if !exists('##TextYankPost')
   map y <Plug>(highlightedyank)
