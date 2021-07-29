@@ -13,11 +13,13 @@ xmap gc  <Plug>VSCodeCommentary
 nmap gc  <Plug>VSCodeCommentary
 omap gc  <Plug>VSCodeCommentary
 nmap gcc <Plug>VSCodeCommentaryLine
-
 nmap <C-n> :nohlsearch<CR>
 
-let mapleader = "\<space>"
 set clipboard=unnamed
+
 if !exists('##TextYankPost')
   map y <Plug>(highlightedyank)
 endif
+
+let g:highlightedyank_highlight_duration = 1000
+let mapleader = "\<space>"
