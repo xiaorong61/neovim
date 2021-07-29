@@ -14,6 +14,8 @@ nmap gc  <Plug>VSCodeCommentary
 omap gc  <Plug>VSCodeCommentary
 nmap gcc <Plug>VSCodeCommentaryLine
 
+nmap <C-n> :nohlsearch<CR>
+
 let mapleader = "\<space>"
 set clipboard=unnamed
 if !exists('##TextYankPost')
