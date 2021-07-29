@@ -23,3 +23,4 @@ endif
 
 let g:highlightedyank_highlight_duration = 200
 let mapleader = "\<space>"
+let g:camelcasemotion_key = '<leader>'
