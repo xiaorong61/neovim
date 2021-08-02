@@ -12,6 +12,7 @@ call plug#end()
 set clipboard=unnamed
 set ignorecase
 set smartcase
+
 if !exists('##TextYankPost')
   map y <Plug>(highlightedyank)
 endif
