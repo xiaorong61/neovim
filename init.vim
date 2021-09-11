@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin(stdpath('data') . '/plugged')
   Plug 'bkad/CamelCaseMotion'
   Plug 'inkarkat/vim-ReplaceWithRegister'
   Plug 'machakann/vim-highlightedyank'
