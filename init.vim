@@ -9,7 +9,6 @@ call plug#begin(stdpath('data') . '/plugged')
   Plug 'tpope/vim-surround'
 call plug#end()
 
-set clipboard=unnamed
 set ignorecase
 set smartcase
 
